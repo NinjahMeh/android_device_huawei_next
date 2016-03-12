@@ -1,5 +1,6 @@
 # blk_device                                    mount_point fs_type
 /system         ext4        /dev/block/platform/hi_mci.0/by-name/system
+/system_image   emmc        /dev/block/platform/hi_mci.0/by-name/system
 /cache          ext4        /dev/block/platform/hi_mci.0/by-name/cache
 /data		ext4	    /dev/block/platform/hi_mci.0/by-name/userdata
 /misc           emmc        /dev/block/platform/hi_mci.0/by-name/misc
